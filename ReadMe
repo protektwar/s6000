@@ -1,0 +1,13 @@
+export PATH=~/Your_Toolchain_PATH/for_example/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6/bin/:$PATH
+
+uboot
+=====
+lenovo89_tb_twn_s_jb project doesn't use uboot.
+
+kernel
+======
+cd kernel
+TARGET_PRODUCT=lenovo89_tb_twn_s_jb2 MTK_ROOT_CUSTOM=../mediatek/custom make -j24
+
+======
+Contact Lenovo support for information on obtaining Open Source code.
